@@ -1,1 +1,6 @@
-
+title: Cichlid Hideout
+tagline: Tank updates, rockwork builds, and cichlid keeping notes
+description: A blog about fish keeping, tank updates, and cichlid care.
+url: "https://babyhercules.github.io"
+baseurl: "/Cichlid_hideout"
+permalink: /:title/
