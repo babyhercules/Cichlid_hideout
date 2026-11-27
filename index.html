@@ -1,0 +1,21 @@
+---
+layout: default
+title: Home
+---
+
+{% for post in site.posts %}
+  <article class="post-card">
+    <div class="post-meta">
+      {% if post.categories.first %}
+        <span class="cat-badge">{{ post.categories.first }}</span>
+      {% endif %}
+      {{ post.date | date: "%B %-d, %Y" }}
+    </div>
+    <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+    {% if post.image %}
+      <img class="post-thumb" src="{{ post.image | relative_url }}" alt="{{ post.title }}">
+    {% endif %}
+    <p>{{ post.excerpt | strip_html | truncatewords: 45 }}</p>
+    <a class="read-more" href="{{ post.url | relative_url }}">Continue Reading &rarr;</a>
+  </article>
+{% endfor %}
