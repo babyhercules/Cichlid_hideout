@@ -1,0 +1,29 @@
+- name: "Tank 1 — Fishless cycling tank"
+  size: "5 Gallon"
+  status: "Cycling"
+  needed_equipment:
+    - "new Lid, old one crack"
+    - "Digital thermometer"
+  stock:
+    - species: "Electric Yellow Lab (Labidochromis caeruleus)"
+      size: "2.5 in"
+      qty: 4
+    - species: "Synodontis petricola"
+      size: "2 in"
+      qty: 3
+
+- name: "Tank 2 — Rockwork Grow-Out"
+  size: "40 Gallon Breeder"
+  status: "Missing Components"
+  needed_equipment:
+    - "200W submersible heater"
+    - "Air pump + airline tubing"
+    - "Seiryu or slate rock"
+  stock: []
+
+- name: "Tank 3 — Quarantine / Reserve"
+  size: "20 Gallon Long"
+  status: "Empty"
+  needed_equipment:
+    - "Sponge filter"
+  stock: []
